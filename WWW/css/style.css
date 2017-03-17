@@ -1,12 +1,16 @@
+/* Général*/
 body{
-	margin: 0;
+	height: 100%;
+	margin: 0 auto;
 	padding: 0;
 	background-color: #504647;
-	font-family: sans-serif;
+	width: 70%;
+	font-family: 'Baloo', cursive;
 }
 
+/* Header */
 header{
-	margin-top: 5px;
+	margin-top: 8px;
 	width: 100%;
 	height: 150px;
 	background-color: white;
@@ -14,48 +18,46 @@ header{
 	margin-right: auto;
 }
 
-
-.logoprincipal, .maintitle{
+.maintitle, .phototitre{
 	margin: auto;
 	float: left;
 }
 
-.logoprincipal{
-	width: 20%;
-	height: auto;	
-}
-
-#logoprincipal{
-	height: 150px;	
-}
-#logoprincipal2{
-	height: 150px;
-	margin:auto;
-	display: block;	
-}
-
 .maintitle{
-	width: 80%;
-	font-family: 'Baloo', cursive;
+	width: 75%;
+	height: 150px;
+	vertical-align: middle;
 }
 
-h1{
-	font-size: 60px;
-	font-weight: lighter;
-	text-align: center;
-	line-height: 75px;
+#maintitle{
+	width: auto;
+	height: 100%;
+	margin: auto;
+	padding: 0 8%;
+}
+
+.phototitre{
+	width: 25%;
+	height: 150px;
+}
+
+#phototitre{
+	padding-top: 9%;
+	width: 95%;
+	height: auto;		
+}
+
+/* Menu principal */
+.table{
+	display: table;
+	margin: 0px auto;
 }
 
 nav{
 	width: 100%;
-	height: 70px;
+	height: 60px;
 	background-color: #65c7e4;
 	display: inline-block;
-}
-
-.table{
-	display: table;
-	margin: 0px auto;
 }
 
 nav ul{
@@ -69,32 +71,35 @@ nav li{
 }
 
 nav a{
-	line-height: 35px;
+	line-height: 100%;
 	display: inline-block;
 	text-decoration: none;
 	padding: 20px 30px;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 22px;
+	font-size: 20px;
 }
 
+.home:hover, .cat:hover, .philo:hover, .health:hover, .contact:hover{
+	background-color: #504647;
+	color: #65c7e4;
+}
+
+/* Footer */
 footer{
-	margin-top: 5px;
+	margin-top: -11px;
 	height: 150px;
 	text-align: center;
 	background-color: #65c7e4;
-	color: lightgrey;
-	font-size: 15px;
+	color: #504647;
+	line-height: 150px;
+	font-size: 20px;
 }
 
+/* Corps de page */
 article{
 	margin-left: auto;
 	margin-right: auto;
-	width:70%;
-	height: 700px;
+	height: 750px;
 	background-color: #fff;
-
 }
-
-
-
