@@ -9,7 +9,7 @@
 						<p>Trololololo lololo lololo</p>
 					</div>
 					<div class="cat">
-						<img id="myImg2" src="imgs/l2.jpg" alt="prout">
+						<img id="myImg2" src="imgs/l2.jpg" alt="paf">
 						<p>Trololololo lololo lololo</p>
 					</div>
 					<div class="cat">

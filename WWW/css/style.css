@@ -136,19 +136,16 @@ article{
 .logoaccueil > img{
 	width: 50%;
 	height: auto;
-	margin-top: 1%;
-	padding: 0;
+	padding-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+
 }
 
 /* Page "Catalogue" */
 .p2{
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 80%;
+	
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
@@ -170,6 +167,7 @@ article{
 	color: black;
 	
 }
+
 .gal{
 	display: block;
 	width: 100%;
@@ -178,12 +176,12 @@ article{
 	text-align: center;
 }
 .cat{
-	margin-left: 9px;
-	margin-right: 9px;
-	margin-top: 6px;
-	margin-bottom: 6px;
-	width: 406px;
-	height: 340px;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 46%;
+	height: auto;
 	background-color: rgba(101,199,228,0.9);
 	float: left;
 	text-align: center;
@@ -200,15 +198,23 @@ article{
 }
 
 .p2  h2{
-	padding-left: 2%;
+	padding-left: 3%;
+	font-size: 25px;
 }
 
 .cat:hover{
 	background-color: #504647;
 	color: white;
-	width: 404px;
-	height: 338px;
-	border: 1px ridge #65c7e4;
+	width: 46%;
+	height: auto;
+	opacity: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+    opacity: 0.9;
+}
+
+img:hover{
+	border-radius: 2%;
 }
 
 .man{
@@ -231,21 +237,21 @@ article{
 	color: white;
 }
 
+.bouffe{
+	background: url("../Pics/OBDRQT0.jpg");
+	color: white;
+}
 /* Page "Qui sommes-nous?" */
-.p3{
+.p3, .p4, .p5{
 	display: table;
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
 	height: auto;
 	text-align: justify;
-	font-size: 20px;
-	font-family: sans-serif;
+	font-size: 21px;
+	font-family: Helvetica, sans-serif;
 	color: #000;
-	/*text-shadow: 1px 1px 1px black;*/
-	
-
-
 }
 
 #qsn1 img{
@@ -256,8 +262,8 @@ article{
 	padding-right: 2%;
 }
 
-.p3b{
-	background-color: rgba(255,255,255,0.75);
+.p3b, .p4b, .p5b{
+	background-color: rgba(255,255,255,0.9);
 	padding: 1px 3%;
 	margin: 2% 0;
 }
@@ -270,5 +276,103 @@ article{
 	padding-left: 2%;
 }
 
-.modal-dialog {width:600px;}
-.thumbnail {margin-bottom:6px;}
+/*Page "Bien-être"*/
+
+/*.p4{
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: auto;
+	text-align: justify;
+	font-size: 21px;
+	font-family: "Times New Roman", serif;
+	color: #000;
+}*/
+
+/*.p4b{
+	background-color: rgba(255,255,255,0.9);
+	padding: 1px 3%;
+	margin: 2% 0;
+}*/
+
+#ip4-1{
+	width: 30%;
+	height: auto;
+	float: left;
+	padding-right: 2%;
+	margin-top: 1%;
+}
+
+#ip4-2{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 4%;
+	margin-bottom: 10%;
+}
+
+.videoydy{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin: 3% auto;
+}
+/*Page "Contact"*/
+.p5{
+	text-align: center;
+}
+
+.location{
+	width: 100%;
+	height: auto;
+	display: table;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.gmap{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+.adresse{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.logocontact{
+	width: 30%;
+	height: auto;
+	float: left;
+}
+
+.logocontact img{
+	width: 100%;
+	height: auto;
+}
+
+form{
+	background-color: #504647;
+	width: 65%;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0.1%;
+	padding-bottom: 0.1%;
+}
+
+input{
+	width: 80%;
+}
+
+textarea{
+	width: 80%;
+}
