@@ -102,22 +102,41 @@ footer{
 
 /* Corps de page */
 article{
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%;
 	height: auto;
 	background-color: #fff;
 	color: black;
 }
 
-/* Page "Accueil" */
-.p1{
+.p1, .p2, .p3, .p4, .p5{
 	width: 100%;
 	height: auto;
+	font-family: Tahoma, Geneva, Kalimati, sans-serif;
+	color: #000;
+}
+
+.p3, .p4, .p5{
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	font-size: 19px;
+	line-height: 200%;
+}
+
+.p3b, .p4b, .p5b{
+	width: 75%;
+	background-color: rgba(255,255,255,0.75);
+	padding: 0.1% 3%;
+	margin: 2% 0;
+}
+
+/******************************* Page 1: ACCUEIL *******************************/
+.p1{
 	background: url("../imgs/bg/accueil.jpg");
-	/*background-position: top center;*/
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
 }
 
 .logoaccueil > img{
@@ -130,30 +149,30 @@ article{
 
 }
 
-/* Page "Catalogue" */
+/******************************* Page 2: CATALOGUE *******************************/
 .p2{
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	height: auto;
+	background: url("../imgs/bg/catalogue.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	color: black;
-	background: url("../imgs/bg/catalogue.jpg");
-	background-attachment: fixed;
-	background-size: cover;
+}
+
+.p2b{
+	width: 80%;
+	margin: 0% auto;
 }
 
 .man, .woman, .kids, .sun{
 	display: table;
 	height: 300px;
-	width: 85%;
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 2%;
 	padding-bottom: 2%;
 	color: black;
-	
 }
 
 .gal{
@@ -163,6 +182,7 @@ article{
 	margin-right: auto;
 	text-align: center;
 }
+
 .cat{
 	margin: 1%;
 	padding: 1%; 
@@ -228,26 +248,22 @@ img:hover{
 	color: white;
 }
 
-/* Page "Qui sommes-nous?" */
-.p3, .p4, .p5{
-	display: table;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	height: auto;
-	text-align: justify;
-	font-size: 20px;
-	font-family: Helvetica, sans-serif;
-	color: #000;
-}
-
+/******************************* Page 3: QUI SOMMES-NOUS? *******************************/
 .p3{
 	background: url(../imgs/bg/philosophie.jpg);
 	background-size: cover;
-	/*background-position: top;*/
+	background-repeat: no-repeat;
 	background-attachment: fixed;
-	width: 100%;
-	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p3b{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(40, 35, 35, 0.5);
+	color: white;
+	line-height: 200%;
 }
 
 #qsn1 img{
@@ -255,35 +271,33 @@ img:hover{
 	width: 30%;
 	height: auto;
 	float: left;
-	padding-right: 2%;
-}
-
-.p3b, .p4b, .p5b{
-	background-color: rgba(255,255,255,0.8);
-	padding: 1px 3%;
-	margin: 2% 0;
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
+	padding-right: 3%;
 }
 
 #qsn2 img{
-	margin-top: 1%;
+	margin-top: 5%;
 	width: 30%;
 	height: auto;
 	float: right;
-	padding-left: 2%;
+	padding-left: 3%;
 }
 
-/*Page "Bien-être"*/
-
+/******************************* Page 4: BIEN-ETRE *******************************/
 .p4{
 	background: url(../imgs/bg/bienetre.jpg);
 	background-size: cover;
-	/*background-position: top;*/
+	background-repeat: no-repeat;
 	background-attachment: fixed;
-	width: 100%;
-	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p4b{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(40, 35, 35, 0.5);
+	color: white;
+	line-height: 200%;
 }
 
 #ip4-1{
@@ -321,15 +335,23 @@ img:hover{
 	color: black;
 }
 
-/*Page "Contact"*/
+/******************************* Page 5: CONTACT *******************************/
 .p5{
 	text-align: center;
 	background: url(../imgs/bg/contact.jpg);
-	background-size: cover;
 	background-position: top right;
+	background-size: cover;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
-	width: 100%;
-	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p5b{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(40, 35, 35, 0.4);
+	color: white;
 }
 
 .location{
