@@ -5,20 +5,20 @@
 				<h2>Montures Hommes</h2>
 				<div class="gal">
 					<div class="cat">
-						<img id="myImg" src="imgs/l1.jpg" alt="pouet">
-						<p>Trololololo lololo lololo</p>
+						<img id="myImg" src="imgs/cat/l1.jpg" alt="Coup de coeur">
+						<p>Notre coup de coeur du moment</p>
 					</div>
 					<div class="cat">
-						<img id="myImg2" src="imgs/l2.jpg" alt="paf">
-						<p>Trololololo lololo lololo</p>
+						<img id="myImg2" src="imgs/cat/l2.jpg" alt="Coup de coeur technique">
+						<p>Notre coup de coeur "technique"</p>
 					</div>
 					<div class="cat">
-						<img id="myImg3" src="imgs/l3.jpg">
-						<p>Trololololo lololo lololo</p>
+						<img id="myImg3" src="imgs/cat/l3.jpg" alt="Coup de coeur fashion">
+						<p>Notre coup de coeur "fashion"</p>
 					</div>
 					<div class="cat">
-						<img id="myImg4" src="imgs/l4.jpg">
-						<p>Trololololo lololo lololo</p>
+						<img id="myImg4" src="imgs/cat/l4.jpg" alt="Coup de coeur tendance">
+						<p>Notre coup de coeur "tendance"</p>
 					</div>
 				</div>
 			</div>
@@ -27,20 +27,20 @@
 				<h2>Montures Femmes</h2>
 				<div class="gal">
 					<div class="cat">
-						<img id="myImg5" src="imgs/l1.jpg" alt="pouet">
-						<p>Trololololo lololo lololo</p>
+						<img id="myImg5" src="imgs/cat/l1.jpg" alt="Coup de coeur">
+						<p>Notre coup de coeur du moment</p>
 					</div>
 					<div class="cat">
-						<img id="myImg6" src="imgs/l2.jpg" alt="prout">
-						<p>Trololololo lololo lololo</p>
+						<img id="myImg6" src="imgs/cat/l2.jpg" alt="Coup de coeur technique">
+						<p>Notre coup de coeur "technique"</p>
 					</div>
 					<div class="cat">
-						<img id="myImg7" src="imgs/l3.jpg">
-						<p>Trololololo lololo lololo</p>
+						<img id="myImg7" src="imgs/cat/l3.jpg" alt="Coup de coeur fashion">
+						<p>Notre coup de coeur "fashion"</p>
 					</div>
 					<div class="cat">
-						<img id="myImg8" src="imgs/l4.jpg">
-						<p>Trololololo lololo lololo</p>
+						<img id="myImg8" src="imgs/cat/l4.jpg" alt="Coup de coeur tendance">
+						<p>Notre coup de coeur "tendance"</p>
 					</div>
 				</div>
 			</div>
@@ -49,20 +49,20 @@
 				<h2>Montures Enfants</h2>
 				<div class="gal">
 					<div class="cat">
-						<img id="myImg9" src="imgs/l1.jpg" alt="pouet">
-						<p>Trololololo lololo lololo</p>
+						<img id="myImg9" src="imgs/cat/l1.jpg" alt="Coup de coeur">
+						<p>Notre coup de coeur du moment</p>
 					</div>
 					<div class="cat">
-						<img id="myImg10" src="imgs/l2.jpg" alt="prout">
-						<p>Trololololo lololo lololo</p>
+						<img id="myImg10" src="imgs/cat/l2.jpg" alt="Coup de coeur technique">
+						<p>Notre coup de coeur "technique"</p>
 					</div>
 					<div class="cat">
-						<img id="myImg11" src="imgs/l3.jpg">
-						<p>Trololololo lololo lololo</p>
+						<img id="myImg11" src="imgs/cat/l3.jpg" alt="Coup de coeur fashion">
+						<p>Notre coup de coeur "fashion"</p>
 					</div>
 					<div class="cat">
-						<img id="myImg12" src="imgs/l4.jpg">
-						<p>Trololololo lololo lololo</p>
+						<img id="myImg12" src="imgs/cat/l4.jpg" alt="Coup de coeur tendance">
+						<p>Notre coup de coeur "tendance"</p>
 					</div>
 				</div>
 			</div>
@@ -71,20 +71,20 @@
 				<h2>Montures Solaires</h2>
 				<div class="gal">
 					<div class="cat">
-						<img id="myImg13" src="imgs/l1.jpg" alt="pouet">
-						<p>Trololololo lololo lololo</p>
+						<img id="myImg13" src="imgs/cat/l1.jpg" alt="Coup de coeur">
+						<p>Notre coup de coeur du moment</p>
 					</div>
 					<div class="cat">
-						<img id="myImg14" src="imgs/l2.jpg" alt="prout">
-						<p>Trololololo lololo lololo</p>
+						<img id="myImg14" src="imgs/cat/l2.jpg" alt="Coup de coeur technique">
+						<p>Notre coup de coeur "technique"</p>
 					</div>
 					<div class="cat">
-						<img id="myImg15" src="imgs/l3.jpg">
-						<p>Trololololo lololo lololo</p>
+						<img id="myImg15" src="imgs/cat/l3.jpg" alt="Coup de coeur fashion">
+						<p>Notre coup de coeur "fashion"</p>
 					</div>
 					<div class="cat">
-						<img id="myImg16" src="imgs/l4.jpg">
-						<p>Trololololo lololo lololo</p>
+						<img id="myImg16" src="imgs/cat/l4.jpg" alt="Coup de coeur tendance">
+						<p>Notre coup de coeur "tendance"</p>
 					</div>
 				</div>
 			</div>

@@ -6,7 +6,7 @@
 				<h2>C'est nous!</h2>
 
 				<div id="qsn1" >
-					<img src="imgs/magext1.jpg">
+					<img src="imgs/pics/philo1.jpg">
 				</div>
 
 				<p>Nous sommes Artisan Lunetier, une profession paramédicale.</p>
@@ -25,15 +25,15 @@
 				<p>Par l’approche artisanale: nous mettons en œuvre nos connaissances techniques et notre savoir faire pour vous servir par le choix des matériaux, la qualité de réalisation et toutes les avancées technologiques que les verres peuvent vous apporter.</p>
 				
 				<div id="qsn2" >
-					<img src="imgs/magext1.jpg">
+					<img src="imgs/pics/philo2.jpg">
 				</div>
 
 				<p>Pour garder ces valeurs actives au quotidien, nous avons fait le choix de l’indépendance. Cela nous permet de ne pas être contraints d’obéir à des firmes qui nous imposeraient de se soumettre au pouvoir des finances, au détriment d’une relation plus humaine à laquelle nous tenons tout particulièrement. Mettre notre professionnalisme à votre écoute, celle de vos gouts, de vos envies, de la manière dont on peut vous faciliter la vie, améliorer votre confort visuel, vous conseiller en santé visuelle…</p>
 
-				<p>Et ceci ne s’arrête pas aux lunettes: nutrition, yoga des yeux …</p>
+				<p>Et ceci ne s’arrête pas aux lunettes: nutrition, <a href="bienetre.php">yoga des yeux</a> …</p>
 
 			</div>
 		</div>
 	</div>
-	
+
 <?php require 'inc/footer.php'; ?>

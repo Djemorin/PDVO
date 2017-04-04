@@ -106,37 +106,24 @@ article{
 	margin-right: auto;
 	height: auto;
 	background-color: #fff;
-	background: url("../Pics/OBDRQT0.jpg");
-	background-position: top bottom;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
 	color: black;
 }
 
 /* Page "Accueil" */
 .p1{
 	width: 100%;
-	height: 540px;
-	background: url("../imgs/accueil.jpg");
-	background-position: top center;
+	height: auto;
+	background: url("../imgs/bg/accueil.jpg");
+	/*background-position: top center;*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 80%;
+	background-size: cover;
 }
-
-/*.logoaccueil{
-	display: block;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: RED.
-}*/
 
 .logoaccueil > img{
 	width: 50%;
 	height: auto;
-	padding-top: 1%;
+	padding: 5% auto;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -145,21 +132,22 @@ article{
 
 /* Page "Catalogue" */
 .p2{
-	
 	margin-left: auto;
 	margin-right: auto;
-	width: 90%;
+	width: 100%;
 	height: auto;
 	padding-top: 5%;
 	padding-bottom: 5%;
 	color: black;
-
+	background: url("../imgs/bg/catalogue.jpg");
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .man, .woman, .kids, .sun{
 	display: table;
 	height: 300px;
-	width: 100%;
+	width: 85%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 2%;
@@ -176,10 +164,8 @@ article{
 	text-align: center;
 }
 .cat{
-	margin-left: 2%;
-	margin-right: 2%;
-	margin-top: 2%;
-	margin-bottom: 2%;
+	margin: 1%;
+	padding: 1%; 
 	width: 46%;
 	height: auto;
 	background-color: rgba(101,199,228,0.9);
@@ -190,6 +176,7 @@ article{
 
 .cat img{
 	margin-top: 5%;
+	margin-bottom: 5%;
 	display: block;
 	width: 90%;
 	height: auto;
@@ -219,39 +206,48 @@ img:hover{
 
 .man{
 	background-color: rgba(20, 99, 208, 0.55);
+	/*background-color: rgba(114, 131, 102, 0.8);*/
 	color: white;
 }
 
 .woman{
 	background-color: rgba(255, 49, 253, 0.6);
+	/*background-color: rgba(182, 112, 86, 0.8);*/
 	color: white;
 }
 
 .kids{
 	background-color: rgba(15, 222, 29, 0.7);
+	/*background-color: rgba(60, 93, 58, 0.8);*/
 	color: white;
 }
 
 .sun{
 	background-color: rgba(255, 168, 0, 0.8);
+	/*background-color: rgba(40, 35, 35, 0.8);*/
 	color: white;
 }
 
-.bouffe{
-	background: url("../Pics/OBDRQT0.jpg");
-	color: white;
-}
 /* Page "Qui sommes-nous?" */
 .p3, .p4, .p5{
 	display: table;
 	margin-left: auto;
 	margin-right: auto;
-	width: 90%;
+	width: 100%;
 	height: auto;
 	text-align: justify;
-	font-size: 21px;
+	font-size: 20px;
 	font-family: Helvetica, sans-serif;
 	color: #000;
+}
+
+.p3{
+	background: url(../imgs/bg/philosophie.jpg);
+	background-size: cover;
+	/*background-position: top;*/
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
 }
 
 #qsn1 img{
@@ -263,9 +259,12 @@ img:hover{
 }
 
 .p3b, .p4b, .p5b{
-	background-color: rgba(255,255,255,0.9);
+	background-color: rgba(255,255,255,0.8);
 	padding: 1px 3%;
 	margin: 2% 0;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #qsn2 img{
@@ -278,23 +277,14 @@ img:hover{
 
 /*Page "Bien-être"*/
 
-/*.p4{
-	display: table;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
+.p4{
+	background: url(../imgs/bg/bienetre.jpg);
+	background-size: cover;
+	/*background-position: top;*/
+	background-attachment: fixed;
+	width: 100%;
 	height: auto;
-	text-align: justify;
-	font-size: 21px;
-	font-family: "Times New Roman", serif;
-	color: #000;
-}*/
-
-/*.p4b{
-	background-color: rgba(255,255,255,0.9);
-	padding: 1px 3%;
-	margin: 2% 0;
-}*/
+}
 
 #ip4-1{
 	width: 30%;
@@ -318,9 +308,28 @@ img:hover{
 	margin-left: auto;
 	margin: 3% auto;
 }
+
+.food{
+	background: url(../imgs/bg/food.jpg);
+	background-size: cover;
+	color: white;
+	display: table;
+	height: 300px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	color: black;
+}
+
 /*Page "Contact"*/
 .p5{
 	text-align: center;
+	background: url(../imgs/bg/contact.jpg);
+	background-size: cover;
+	background-position: top right;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
 }
 
 .location{
@@ -352,11 +361,6 @@ ul{
 	width: 30%;
 	height: auto;
 	float: left;
-}
-
-.logocontact img{
-	width: 100%;
-	height: auto;
 }
 
 form{

@@ -5,10 +5,6 @@
 			<h1>Point De Vue Opticien</h1>
 		
 			<div class="location">
-
-				<!-- <div class="logocontact">
-					<img src="imgs/logo.jpg">
-				</div> -->
 				
 				<div class="adresse">
 					<ul>
@@ -53,4 +49,5 @@
 			<h3>Et retrouvez nous sur notre page Facebook!</h3>
 		</div>
 	</div>	
+	
 <?php require 'inc/footer.php'; ?>

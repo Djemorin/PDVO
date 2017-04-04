@@ -2,7 +2,7 @@
 	<div class="p1">
 	
 		<div class="logoaccueil">
-			<img src="imgs/logo.jpg">
+			<img src="imgs/base/logo.jpg">
 		</div>
 	
 	</div>

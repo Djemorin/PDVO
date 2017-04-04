@@ -13,11 +13,11 @@
 	<body>
 		<header>
 			<div class="maintitle">
-				<img id="maintitle" src="imgs/titre.jpg">
+				<img id="maintitle" src="imgs/base/titre.jpg">
 			</div>
 
 			<div class="phototitre">
-				<img id="phototitre" src="imgs/magext1.jpg">
+				<img id="phototitre" src="imgs/base/imagetitre.jpg">
 			</div>
 		</header>
 

@@ -4,7 +4,7 @@
 		<div class="p4b">
 			<h1>Le bien-être par la vue.</h1>
 
-			<img id="ip4-1" src="Pics/p3.jpg">
+			<img id="ip4-1" src="imgs/pics/be1.jpg">
 
 			<p>Quête de bien-être, recherche de sens et recherche d’un équilibre à inventer.</p>
 
@@ -24,7 +24,7 @@
 
 			<br>
 
-			<img id="ip4-2" src="Pics/p2b.jpg">
+			<img id="ip4-2" src="imgs/pics/be2.jpg">
 
 			<br>
 
@@ -42,23 +42,19 @@
 
 			<p>Voici quelques exemple d’aliments - il en existe plein d’autres. Les consommer en conscience pour vos yeux vous permet de renforcer le pouvoir auto-régénérant de votre organisme.</p>
 
-			<div class="kids">
+			<div class="food">
 				<div class="gal">
 					<div class="cat">
-						<img id="myImg" src="imgs/l1.jpg" alt="pouet">
-						<p>Trololololo lololo lololo</p>
+						<img id="bef1" src="imgs/food/myrtille.jpg" alt="La myrtille">
 					</div>
 					<div class="cat">
-						<img id="myImg2" src="imgs/l2.jpg" alt="paf">
-						<p>Trololololo lololo lololo</p>
+						<img id="bef2" src="imgs/food/carotte.jpg" alt="La carotte">
 					</div>
 					<div class="cat">
-						<img id="myImg3" src="imgs/l3.jpg">
-						<p>Trololololo lololo lololo</p>
+						<img id="bef3" src="imgs/food/poissons.jpg" alt="Les poissons gras">
 					</div>
 					<div class="cat">
-						<img id="myImg4" src="imgs/l4.jpg">
-						<p>Trololololo lololo lololo</p>
+						<img id="bef4" src="imgs/food/epinards.jpg" alt="Les épinards">
 					</div>
 				</div>
 			</div>
@@ -88,5 +84,60 @@
 		</div>
 	</div>
 	
-	
+		<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <span class="close">&times;</span>
+			  <img class="modal-content" id="img01">
+			  <div id="caption"></div>
+			</div>
+
+			<script>
+				// Get the modal
+				var modal = document.getElementById('myModal');
+
+				// Get the image and insert it inside the modal - use its "alt" text as a caption
+				var img = document.getElementById('bef1');
+				var modalImg = document.getElementById("img01");
+				var captionText = document.getElementById("caption");
+				img.onclick = function(){
+				    modal.style.display = "block";
+				    modalImg.src = this.src;
+				    captionText.innerHTML = this.alt;
+				}
+
+				var img = document.getElementById('bef2');
+				var modalImg = document.getElementById("img01");
+				var captionText = document.getElementById("caption");
+				img.onclick = function(){
+				    modal.style.display = "block";
+				    modalImg.src = this.src;
+				    captionText.innerHTML = this.alt;
+				}
+
+				var img = document.getElementById('bef3');
+				var modalImg = document.getElementById("img01");
+				var captionText = document.getElementById("caption");
+				img.onclick = function(){
+				    modal.style.display = "block";
+				    modalImg.src = this.src;
+				    captionText.innerHTML = this.alt;
+				}
+
+				var img = document.getElementById('bef4');
+				var modalImg = document.getElementById("img01");
+				var captionText = document.getElementById("caption");
+				img.onclick = function(){
+				    modal.style.display = "block";
+				    modalImg.src = this.src;
+				    captionText.innerHTML = this.alt;
+				}
+
+				// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close")[0];
+
+				// When the user clicks on <span> (x), close the modal
+				span.onclick = function() { 
+				    modal.style.display = "none";
+				}
+			</script>
 <?php require 'inc/footer.php'; ?>
