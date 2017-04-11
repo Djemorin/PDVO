@@ -47,6 +47,8 @@
 			</form>
 
 			<h3>Et retrouvez nous sur notre page Facebook!</h3>
+
+			<a href=""><img src="imgs/base/facebook.png"></a>
 		</div>
 	</div>	
 	

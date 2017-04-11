@@ -1,3 +1,9 @@
+<?php
+	require 'connect.php';
+
+	$page = $bdd->query('SELECT * FROM photos');
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -5,7 +11,7 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/modal.css">
-		<link rel="stylesheet" type="text/css" href="jquery.js">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
 		<link rel="icon" type="image/png" href="imgs/logo.jpg" />
 	</head>
@@ -17,7 +23,10 @@
 			</div>
 
 			<div class="phototitre">
-				<img id="phototitre" src="imgs/base/imagetitre.jpg">
+				<?php
+					$rendu = $page->fetch();
+				?>
+				<img id="phototitre" src="<?= $rendu['chemin_photo'] ?>">
 			</div>
 		</header>
 

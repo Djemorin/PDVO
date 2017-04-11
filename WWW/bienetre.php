@@ -18,9 +18,9 @@
 
 			<p>Pour commencer, un peu de bon sens.</p>
 
-			<p>La seule bonne lumière est la lumière naturelle, c'est à dire celle du soleil. Prendre le temps d’y être régulièrement et suffisamment exposés nous régénère. Cela aurait même une implication pour freiner les évolutions de myopie.</p>
+			<p>La seule bonne lumière est la lumière naturelle, c'est à dire celle du soleil. <strong> Prendre le temps d’y être régulièrement et suffisamment exposés nous régénère</strong>. Cela aurait même une implication pour freiner les évolutions de myopie.</p>
 
-			<p>Si l’organisme est constitué en moyenne de 70% d’eau, l’œil l’est pour son compte à 90%, donc une bonne hydratation est d’autant plus important pour nos yeux.</p>
+			<p>Si notre organisme est constitué en moyenne de 70 % d’eau, l’œil l’est pour son compte à 90 %, donc <strong>une bonne hydratation</strong> est d’autant plus importante pour nos yeux.</p>
 
 			<br>
 
@@ -34,13 +34,13 @@
 			
 			<br>
 
-			<p>Un peu de bon sens aussi serait de prendre l’habitude de reposer notre système visuel à période régulière lorsque nous pratiquons une activité prolongée en vision de près - d’autant plus si cette activité implique l’utilisation d’écrans (téléphone, tablette, ordinateur, télé, etc.).</p>
+			<p>Un peu de bon sens aussi serait de prendre l’habitude de <strong>reposer notre système visuel à période régulière</strong> lorsque nous pratiquons une activité prolongée en vision de près - d’autant plus si cette activité implique l’utilisation d’écrans (téléphone, tablette, ordinateur, télé, etc.).</p>
 
 			<br>
 
 			<h3>Booster le bon fonctionnement de vos yeux par la nutrition.</h3>
 
-			<p>Voici quelques exemple d’aliments - il en existe plein d’autres. Les consommer en conscience pour vos yeux vous permet de renforcer le pouvoir auto-régénérant de votre organisme.</p>
+			<p>Voici quelques exemple d’aliments - il en existe plein d’autres. <strong>Les consommer en conscience pour vos yeux vous permet de renforcer le pouvoir auto-régénérant de votre organisme</strong>.</p>
 
 			<div class="food">
 				<div class="gal">
@@ -63,23 +63,23 @@
 
 			<h3>Et si on se relaxait les yeux ?</h3>
 
-			<p>Avec persévérance, la relaxation des yeux peut même améliorer votre vision et développer votre côté Zen. Pour cela, une pratique utile et ludique : le yoga des yeux.</p>
+			<p>Avec persévérance, <strong>la relaxation des yeux</strong> peut même améliorer votre vision et développer votre côté Zen. Pour cela, une pratique utile et ludique : le yoga des yeux.</p>
 			
 			<iframe class="videoydy" width="560" height="315" src="https://www.youtube.com/embed/kKOi4bOqxzQ" frameborder="0" allowfullscreen></iframe>
 
-			<p>La pratique de tels exercices contribue à améliorer votre rapport à vous-même, en améliorant la libre circulation de votre énergie. Cela facilite le fonctionnement naturel de vos yeux - une sorte de maintenance respectueuse du fonctionnement naturel de vos yeux. </p>
+			<p>La pratique de tels exercices contribue à améliorer votre rapport à vous-même, en <em>améliorant la libre circulation de votre énergie</em>. Cela facilite le fonctionnement naturel de vos yeux - une sorte de maintenance respectueuse du fonctionnement naturel de vos yeux. </p>
 
 			<br>
 
 			<h3>Par d’autres approches encore…</h3>
 
-			<p>L’aromathérapie par exemple améliorerait notre fonction visuelle par la simple respiration des parfums des huiles essentiels de jasmin, de mente poivrée ou bien encore de vanille.</p>
+			<p><strong>L’aromathérapie</strong> par exemple améliorerait notre fonction visuelle par la simple respiration des parfums des huiles essentielles de jasmin, de mente poivrée ou bien encore de vanille.</p>
 			
 			<br>
 
 			<p>Bref, il existe de nombreux outils pour nous améliorer dans le respect de ce que nous sommes.</p>
 
-			<p>N’hésitez pas à venir échanger avec nous pour le plaisir du partage!</p>
+			<h4>N’hésitez pas à venir échanger avec nous pour le plaisir du partage!</h4>
 
 		</div>
 	</div>

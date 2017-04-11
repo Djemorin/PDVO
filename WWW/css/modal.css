@@ -11,6 +11,13 @@
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(80,70,71); /* Fallback color */
     background-color: rgba(80,70,71,0.8); /* Black w/ opacity */
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.modal p{
+    margin-top: 10px;
 }
 
 /* Modal Content (Image) */
@@ -20,6 +27,7 @@
     width: 80%;
     max-width: 700px;
     border-radius: 2%;
+    color: white;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -28,9 +36,6 @@
     display: block;
     width: 80%;
     max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
     height: 150px;
 }
 
