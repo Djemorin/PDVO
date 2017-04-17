@@ -1,7 +1,7 @@
 <?php
 	require 'connect.php';
 
-	$page = $bdd->query('SELECT * FROM photos');
+	$page = $bdd->query('SELECT chemin_photo FROM photos');
 ?>
 
 <!DOCTYPE html>
@@ -10,10 +10,10 @@
 		<title>Point De Vue Opticien</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/modal.css">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="icon" type="image/png" href="imgs/base/logo.jpg" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
-		<link rel="icon" type="image/png" href="imgs/logo.jpg" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
 	
 	<body>

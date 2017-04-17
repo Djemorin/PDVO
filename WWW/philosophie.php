@@ -6,7 +6,14 @@
 				<h2>C'est nous!</h2>
 
 				<div id="qsn1" >
-					<img src="imgs/pics/philo1.jpg">
+					<img src="
+						<?php
+							$page = $bdd->query('SELECT chemin_photo FROM photos WHERE id = 2');
+							$page = $page->fetch();
+							
+							echo $page['chemin_photo'];
+						?>
+					">
 				</div>
 
 				<p>Nous sommes <strong>Artisan Lunetier</strong>, une profession paramédicale.</p>
@@ -27,7 +34,14 @@
 				<br>
 
 				<div id="qsn2" >
-					<img src="imgs/pics/philo2.jpg">
+					<img src="
+						<?php
+							$page = $bdd->query('SELECT chemin_photo FROM photos WHERE id = 3');
+							$page = $page->fetch();
+							
+							echo $page['chemin_photo'];
+						?>
+					">
 				</div>
 
 				<p>Pour garder ces valeurs actives au quotidien, nous avons fait le choix de l’indépendance. Cela nous permet de ne pas être contraints d’obéir à des firmes qui nous imposeraient de se soumettre au pouvoir des finances, au détriment d’une relation plus humaine à laquelle nous tenons tout particulièrement. Mettre notre professionnalisme à votre écoute, celle de vos gouts, de vos envies, de la manière dont on peut vous faciliter la vie, améliorer votre confort visuel, vous conseiller en santé visuelle…</p>

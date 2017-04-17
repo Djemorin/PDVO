@@ -29,8 +29,8 @@
 		
 					<div class="gal">
 						<div class="cat">
-							<img id="img<?= $pic['id'] ?>" src="<?= $chemin_photo ?>" alt="<?= $pic['legende_photo'] ?>"> 
-							<p><?= $pic['texte_photo'] ?></p>	
+							<img id="img<?= $pic['id'] ?>" src="<?= $chemin_photo ?>" alt="<?= htmlspecialchars($pic['legende_photo']) ?>"> 
+							<p><?= htmlspecialchars($pic['texte_photo']) ?></p>	
 						</div>
 					</div>
 					
@@ -38,12 +38,8 @@
 						$( "#img<?= $pic['id'] ?>" ).click(function() {
 					  		$( "#myModal<?= $pic['id'] ?>" ).css("display", "block");
 						});	
-						$( ".close" ).click(function() {
-					  		$( "#myModal<?= $pic['id'] ?>" ).css("display", "none");
-						});		
 					</script>
 				
-
 					<!-- The Modal -->
 					<div id="myModal<?= $pic['id'] ?>" class="modal">
 					  <span class="close" id="close">&times;</span>
@@ -51,7 +47,7 @@
 					  <div id="caption"><?= $pic['legende_photo'] ?></div>
 					</div>
 
-					<script type="text/javascript">
+					<script>
 						$("#myModal<?= $pic['id'] ?>").click(function() {
 					  		$( "#myModal<?= $pic['id'] ?>" ).css("display", "none");
 						});	
