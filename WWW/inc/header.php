@@ -7,6 +7,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width" />
 		<title>Point De Vue Opticien</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -54,8 +55,31 @@
 					<?php endif; ?>
             
 				</ul>
+
+				
 			</div>
 		</nav>
+		
+		<div class="menu2">
+			<img id="boutonresponsive" src="imgs/base/titre.jpg">
+			<ul class="hidden">
+				<li><a href="index.php">Accueil</a></li>
+				<li><a href="catalogue.php">Catalogue</a></li>
+				<li><a href="philosophie.php">Qui sommes-nous?</a></li>
+				<li><a href="bienetre.php">Bien être</a></li>
+				<li><a href="contact.php">Contact</a></li>
+			</ul>
+		</div>
 
+
+		<script>
+			$(document).ready(function(){
+      			$(".hidden").hide();
+      
+		      $("#boutonresponsive").click(function(){
+		          $(".hidden").toggle(250);
+		      });
+		  });
+		</script>
 		<article>
 	

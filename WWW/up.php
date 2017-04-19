@@ -8,8 +8,8 @@ require 'inc/header.php';
     <div class="p7b">
         <h1>Bonjour <?= $_SESSION['auth']['username']; ?>, bienvenue dans le panneau d'administration.</h1>
         
-        <h2>Catalogue:</h2>
-
+        <h2 id="boutoncatalogue">Catalogue</h2>
+<div class="lunettes">
         <table>
           <tr>
               <th>Catégorie</th>
@@ -45,12 +45,12 @@ require 'inc/header.php';
 
             <tr><form action="add.php"><button>Ajouter une nouvelle paire</button></form></tr>
         </table>
-
-        <br>
-
-        <h2>Alimentation:</h2>
+</div>
         
-                <table>
+
+        <h2 id="boutonaliments">Alimentation</h2>
+  <div class="aliments">   
+        <table>
           <tr>
               <th>Aliment</th>
               <th>Légende de la photo</th>
@@ -60,7 +60,7 @@ require 'inc/header.php';
 
           <?php
             
-            $reponse = $bdd->query('SELECT * FROM food');
+            $reponse = $bdd->query('SELECT * FROM food ORDER BY nom_photo');
             while ($donnees = $reponse->fetch()){
            
           ?>
@@ -69,7 +69,7 @@ require 'inc/header.php';
               <td id='nom'><?= $donnees['nom_photo']; ?></td>
               <td id='legende'><?= $donnees['legende_photo']; ?></td>
               <td id=pic><img src="<?= $donnees['chemin_photo'] ?>" width="40%"></td> 
-              <td class="modifs"><a id="mod" href="maj.php?id=<?php echo $donnees['id']; ?> "> Modifier </a><a class="sup" href="delete.php?id=<?php echo $donnees['id']; ?>"> Supprimer </a></td>
+              <td class="modifs"><a id="mod" href="majfood.php?id=<?php echo $donnees['id']; ?> "> Modifier </a><a class="sup" href="deletefood.php?id=<?php echo $donnees['id']; ?>"> Supprimer </a></td>
           </tr>
           
 
@@ -83,9 +83,23 @@ require 'inc/header.php';
 
             <tr><form action="addfood.php"><button>Ajouter un nouvel aliment</button></form></tr>
         </table>
-
+</div>   
     </div>
 
 </div>
+
+<script>
+  $(document).ready(function(){
+      $(".lunettes").hide();
+      $(".aliments").hide();
+      
+      $("#boutoncatalogue").click(function(){
+          $(this).toggleClass("blue"), $(".lunettes").toggle(250);
+      });
+      $("#boutonaliments").click(function(){
+        $(this).toggleClass("blue"), $(".aliments").toggle(250);
+    });
+  });
+</script>
 
 <?php require 'inc/footer.php'; ?>

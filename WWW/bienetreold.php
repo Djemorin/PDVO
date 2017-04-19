@@ -40,48 +40,24 @@
 
 			<h3>Booster le bon fonctionnement de vos yeux par la nutrition.</h3>
 
-			<p>Voici quelques exemple d’aliments - il en existe plein d’autres. <strong>Les consommer en conscience pour vos yeux vous permet de renforcer le pouvoir auto-régénérant de votre organisme</strong>.</p>->
+			<p>Voici quelques exemple d’aliments - il en existe plein d’autres. <strong>Les consommer en conscience pour vos yeux vous permet de renforcer le pouvoir auto-régénérant de votre organisme</strong>.</p>
 
-
-							
-			<div class="food">	
-				<?php
-					$page = $bdd->query('SELECT * FROM food');
-					
-					while ($donnees = $page->fetch()){
-						$chemin_photo = $donnees['chemin_photo'];
-
-				?>
+			<div class="food">
 				<div class="gal">
 					<div class="cat">
-						<img id="img<?= $donnees['id'] ?>" src="<?= $chemin_photo ?>" alt="<?= htmlspecialchars($donnees['legende_photo']) ?>"> 
+						<img id="bef1" src="imgs/food/myrtille.jpg" alt="La myrtille">
+					</div>
+					<div class="cat">
+						<img id="bef2" src="imgs/food/carotte.jpg" alt="La carotte">
+					</div>
+					<div class="cat">
+						<img id="bef3" src="imgs/food/poissons.jpg" alt="Les poissons gras">
+					</div>
+					<div class="cat">
+						<img id="bef4" src="imgs/food/epinards.jpg" alt="Les épinards">
 					</div>
 				</div>
-					
-				<script>
-					$( "#img<?= $donnees['id'] ?>" ).click(function() {
-				  		$( "#myModal<?= $donnees['id'] ?>" ).css("display", "block");
-					});	
-				</script>
-				
-				<!-- The Modal -->
-				<div id="myModal<?= $donnees['id'] ?>" class="modal">
-				  <span class="close" id="close">&times;</span>
-				  <img class="modal-content" src="<?= $chemin_photo ?>">
-				  <div id="caption"><?= $donnees['legende_photo'] ?></div>
-				</div>
-
-				<script>
-					$("#myModal<?= $donnees['id'] ?>").click(function() {
-				  		$( "#myModal<?= $donnees['id'] ?>" ).css("display", "none");
-					});	
-				</script>
-				
-					<?php
-						}
-						$page->closeCursor();
-					?>
-				</div>
+			</div>
 
 			<br>
 
@@ -90,6 +66,7 @@
 			<p>Avec persévérance, <strong>la relaxation des yeux</strong> peut même améliorer votre vision et développer votre côté Zen. Pour cela, une pratique utile et ludique : le yoga des yeux.</p>
 			
 			<iframe class="videoydy" width="560" height="315" src="https://www.youtube.com/embed/kKOi4bOqxzQ" frameborder="0" allowfullscreen></iframe>
+			<a id="videoydy" href="https://www.youtube.com/embed/kKOi4bOqxzQ">Vidéo: le yoga des yeux</a>
 
 			<p>La pratique de tels exercices contribue à améliorer votre rapport à vous-même, en <em>améliorant la libre circulation de votre énergie</em>. Cela facilite le fonctionnement naturel de vos yeux - une sorte de maintenance respectueuse du fonctionnement naturel de vos yeux. </p>
 
@@ -115,4 +92,53 @@
 			  <div id="caption"></div>
 			</div>
 
+			<script>
+				// Get the modal
+				var modal = document.getElementById('myModal');
+
+				// Get the image and insert it inside the modal - use its "alt" text as a caption
+				var img = document.getElementById('bef1');
+				var modalImg = document.getElementById("img01");
+				var captionText = document.getElementById("caption");
+				img.onclick = function(){
+				    modal.style.display = "block";
+				    modalImg.src = this.src;
+				    captionText.innerHTML = this.alt;
+				}
+
+				var img = document.getElementById('bef2');
+				var modalImg = document.getElementById("img01");
+				var captionText = document.getElementById("caption");
+				img.onclick = function(){
+				    modal.style.display = "block";
+				    modalImg.src = this.src;
+				    captionText.innerHTML = this.alt;
+				}
+
+				var img = document.getElementById('bef3');
+				var modalImg = document.getElementById("img01");
+				var captionText = document.getElementById("caption");
+				img.onclick = function(){
+				    modal.style.display = "block";
+				    modalImg.src = this.src;
+				    captionText.innerHTML = this.alt;
+				}
+
+				var img = document.getElementById('bef4');
+				var modalImg = document.getElementById("img01");
+				var captionText = document.getElementById("caption");
+				img.onclick = function(){
+				    modal.style.display = "block";
+				    modalImg.src = this.src;
+				    captionText.innerHTML = this.alt;
+				}
+
+				// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close")[0];
+
+				// When the user clicks on <span> (x), close the modal
+				span.onclick = function() { 
+				    modal.style.display = "none";
+				}
+			</script>
 <?php require 'inc/footer.php'; ?>

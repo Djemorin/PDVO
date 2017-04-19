@@ -148,12 +148,16 @@ article{
 
 }
 
+.menu2{
+	display: none;
+}
+
 /******************************* Page 1: ACCUEIL *******************************/
 .p1{
 	/*background: url("../imgs/bg/accueil.jpg");*/
-	background-size: cover;
+	/*background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
 }
 
 .p1 h1{
@@ -240,7 +244,7 @@ h6{
 
 .man, .woman, .kids, .sun{
 	display: table;
-	height: 300px;
+	height: auto;
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
@@ -280,11 +284,8 @@ h6{
 }
 
 .p2  h2{
-	
-	
 	font-size: 25px;
-	margin-left: 3%;
-	
+	margin-left: 3%;	
 }
 
 .cat:hover{
@@ -408,7 +409,7 @@ h6{
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
     .modal-content {
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -483,16 +484,18 @@ h6{
 	margin: 5% auto;
 }
 
+#videoydy{
+	display: none;
+}
+
 .food{
 	background: url(../imgs/bg/food.jpg);
 	background-size: cover;
-	color: white;
 	display: table;
-	height: 300px;
+	height: auto;
 	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-	color: black;
+	margin: 1% auto;
+	padding: 1% auto;
 }
 
 /******************************* Page 5: CONTACT *******************************/
@@ -532,11 +535,13 @@ h6{
 	width: 50%;
 	height: auto;
 	float: left;
-	line-height: 150%;
+	line-height: 200%;
 }
 
 ul{
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 .logocontact{
@@ -624,6 +629,15 @@ button{
 	width: 15%;
 }
 
+#boutoncatalogue, #boutonaliments{
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.blue{
+	color: #65c7e4;
+}
+
 /******************************* Page 8: AJOUT D'UNE PAIRE *******************************/
 .entree{
 	width: 100%;
@@ -649,10 +663,150 @@ select, input, textarea{
 	margin: 1% auto;
 }
 
-.danger{
-	color: red;
-	background-color: red;
+/****************************************** DIVERS ******************************************/
+
+@media screen and (max-width: 900px){
+	body{
+		width: 95%;
+	}
+
+	header{
+		display: none;
+	}
+
+	.maintitle{
+	max-width: 75%;
+	height: 75px;
+	}
+
+	nav{
+		display: none;
+	}
+
+	.menu2{
+		display: table;
+		background-color: #65c7e4;
+		max-width: 100%;
+		color: white;
+		margin: 0 0 0.3% 0;
+		padding: 0;
+		font-size: 3.5vw;
+		
+	}
+
+	.menu2 ul{
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		text-align: center;
+	}
+
+	.menu2 li a{
+		text-decoration: none;
+		text-transform: uppercase;
+		color: white;
+		font-family: 'Baloo', cursive;
+	}
+
+	.menu2 img{
+		max-width: 100%;
+	}
+
+	.p1, .p2, .p3, .p4, .p5{
+		font-size: 12px;
+	}
+	
+	footer{
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+		font-size: 8px;
+	}
+
+	.p1, .p2{
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.p1b, .p2b{
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+
+	/*background-color: rgba(10, 10, 10, 0.5);
+	color: white;*/
+	padding: 0;
+	margin: 2% auto;
+	line-height: 1.3em;
+	}
+
+	.accroche{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding-top: 1vw;
+}
+
+	.bandeaccroche{
+	margin-left: 7%;
+	display: table;
+	background-color: #504647;
+	width: 95%;
+	height: 15px;
+	border-radius: 5vw;
+	vertical-align: middle;
+}
+
+.texteaccroche{
+	color: white;
+	font-size: 2.5vw;
+	line-height: 8vw;
+	vertical-align: middle;
+	/*float: left;*/
+}
+
+.rondgris{
+	background-color: #504647;
+	width: 4vw;
+	height: 4vw;
+	border: 1vw solid #65c7e4;
+	border-radius: 4vw;
+	float: left;
+	margin: 2% 5%;
+	vertical-align: middle;
+}
+
+.p2  h2{
+	font-size: 13px;
+	margin-left: 3%;	
+}
+
+
+.p3d{
+	float: none;
+}
+
+#qsn1 img{
 	width: 100%;
-	height: 100px;
+	height: auto;
+	float: none;
+}
+
+#qsn2 img{
+	width: 100%;
+	height: auto;
+	float: none;
+}
+
+.videoydy{
+	display: none;
+}
+
+#videoydy{
+	display: block;
+	text-align: center;
+}
 
 }
+                    
