@@ -21,6 +21,7 @@
 			</div>
 			
 			<br>
+			<br>
 
 			<div class="horaires">
 				<h3>Horaires</h3>
@@ -30,7 +31,9 @@
 					<li>Samedi: 9h00/13h30</li>
 				</ul>
 			</div>
+			
 
+			<br>
 			<h3>Des questions? N'hésitez pas à nous contacter!</h3>
 
 			<form>
@@ -46,6 +49,7 @@
 				<p><button type="submit">Envoyer</button></p>
 			</form>
 
+			<br>
 			<h3>Et retrouvez nous sur notre page Facebook!</h3>
 
 			<a href=""><img src="imgs/base/facebook.png"></a>

@@ -19,10 +19,10 @@
 							?>
 							
 							<div class="man">
-							<h2 id="man"><?=$pic['categorie'] ?></h2>	
+							<h2 id="man"><?= $pic['categorie'] ?></h2>	
 							
 							<?php
-								$categorie=$pic['categorie'];
+								$categorie = $pic['categorie'];
 							}
 							$i++;
 							?>

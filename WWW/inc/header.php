@@ -48,6 +48,11 @@
 					<li class="contact">
 						<a href="contact.php">Contact</a>
 					</li>
+					<?php if(isset($_SESSION['auth'])): ?>
+					<li><a href="account.php">Mon compte</a></li>
+					<li><a href="logout.php">Se déconnecter</a></li>
+					<?php endif; ?>
+            
 				</ul>
 			</div>
 		</nav>
