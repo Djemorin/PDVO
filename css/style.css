@@ -1,0 +1,759 @@
+/* Général*/
+body{
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #504647;
+	width: 75%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+header{
+	display: table;
+	margin-top: 0.3%;
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: bottom;
+	
+}
+
+.maintitle, .phototitre{
+	margin: auto;
+	float: left;
+}
+
+.maintitle{
+	display: table;
+	max-width: 75%;
+	height: 100px;
+}
+
+#maintitle{
+	max-width: 55%;
+	height: auto;
+	padding: 0 8%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.phototitre{
+	max-width: 25%;
+	height: 100px;	
+}
+
+#phototitre{
+	padding-top: 7%;
+	max-width: 90%;
+	height: auto;
+	display: none;
+}
+
+/* Menu principal */
+.table{
+	display: table;
+	margin: 0 auto;
+	font-family: 'Baloo', cursive;
+}
+
+nav{
+	width: 100%;
+	height: 35px;
+	background-color: #65c7e4;
+	display: table;
+	margin-bottom: 0.3%;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li{
+	list-style-type: none;
+	float: left;
+}
+
+nav a{
+	line-height: 35px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 0px 25px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.1vw;
+	font-weight: lighter;
+}
+
+.home:hover, .catalogue:hover, .philo:hover, .health:hover, .contact:hover{
+	background-color: #504647;
+	color: #65c7e4;
+}
+
+/* Footer */
+footer{
+	display: table;
+	margin-top: 0.3%;
+	height: 80px;
+	width: 100%;
+	text-align: center;
+	background-color: #65c7e4;
+	color: #504647;
+	line-height: 80px;
+	font-size: 1vw;
+	color: white;
+
+}
+
+footer img{
+	width: 4%;
+	height: auto;
+}
+
+/* Corps de page */
+article{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	color: black;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7{
+	width: 100%;
+	height: auto;
+	color: #000;
+}
+
+.p1, .p2, .p3, .p4, .p5{
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	font-size: 17px;
+}
+
+.p1b, .p3b, .p4b, .p5b, .p6b, .p7b{
+	width: 80%;
+	padding: 0.1% 5%;
+	margin: 2% auto;
+	line-height: 1.3em;
+}
+
+/*Menu responsive*/
+.menu2{
+	display: none;
+}
+
+/******************************* Page 1: ACCUEIL *******************************/
+
+.p1 h1{
+	text-align: center;
+}
+
+h6{
+	text-align: right;
+}
+
+.cadreaccueil{
+	display: table;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	vertical-align: middle;
+
+}
+
+.logoaccueil{
+	width: 50%;
+	height: auto;
+	float: left;
+	margin: 0 auto;
+}
+
+.accroche{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding-top: 13%;
+}
+
+.bandeaccroche{
+	margin-left: 7%;
+	display: table;
+	background-color: #504647;
+	width: 100%;
+	height: 30px;
+	border-radius: 20px;
+}
+
+.texteaccroche{
+	color: white;
+	font-size: 1.3vw;
+	line-height: 200%;
+	vertical-align: middle;
+}
+
+.rondgris{
+	background-color: #504647;
+	width: 20px;
+	height: 20px;
+	border: 5px solid #65c7e4;
+	border-radius: 20px;
+	float: left;
+	margin: 1% 5%;
+}
+
+.logoaccueil  img{
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/******************************* Page 2: CATALOGUE *******************************/
+.p2{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.p2b{
+	padding: 0.1% 0;
+}
+
+.man{
+	display: table;
+	height: auto;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2%;
+	padding-bottom: 0.5%;
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+.gal{
+	display: block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.cat{
+	margin: 1%;
+	padding: 1%; 
+	width: 46%;
+	height: auto;
+	background-color: rgba(101,199,228,0.9);
+	float: left;
+	text-align: center;
+	color: black;
+}
+
+.cat img{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: block;
+	width: 90%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p2  h2{
+	font-size: 20px;
+	margin-left: 1.5%;	
+}
+
+.cat:hover{
+	background-color: #FFF;
+	color: black;
+	width: 46%;
+	height: auto;
+	opacity: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+    opacity: 0.9;
+}
+
+.man{
+	color: rgb(20, 99, 208);
+	background-color: #504647;
+	color: white;
+}
+
+/* The Modal (background) */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(80,70,71); /* Fallback color */
+    background-color: rgba(80,70,71,0.8); /* Black w/ opacity */
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.modal p{
+    margin-top: 10px;
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    color: white;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+.caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 90%;
+    }
+}
+
+/******************************* Page 3: QUI SOMMES-NOUS? *******************************/
+.p3{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p3d{
+	float: right;
+}
+
+#qsn1 img{
+	margin-top: 1%;
+	width: 30%;
+	height: auto;
+	float: left;
+	padding-right: 3%;
+}
+
+#qsn2 img{
+	margin-top: 3%;
+	width: 30%;
+	height: auto;
+	float: right;
+	padding-left: 3%;
+}
+
+/******************************* Page 4: BIEN-ETRE *******************************/
+.p4{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ip4-1{
+	width: 30%;
+	height: auto;
+	float: left;
+	padding-right: 2%;
+	margin-top: 1%;
+}
+
+#ip4-2{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 4%;
+	margin-bottom: 10%;
+}
+
+.videoydy{
+	display: block;
+	margin: 5% auto;
+}
+
+#videoydy{
+	display: none;
+}
+
+.food{
+	background: url(../imgs/bg/food.jpg);
+	background-size: cover;
+	display: table;
+	height: auto;
+	width: 100%;
+	margin: 1% auto;
+	padding: 1% auto;
+}
+
+/******************************* Page 5: CONTACT *******************************/
+.p5{
+	text-align: center;
+	background-position: top right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.location{
+	width: 100%;
+	height: auto;
+	display: table;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.gmap{
+	width: 50%;
+	height: auto;
+	float: left;
+	line-height: 300%;
+}
+
+.adresse{
+	width: 50%;
+	height: auto;
+	float: left;
+	line-height: 200%;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.logocontact{
+	width: 30%;
+	height: auto;
+	float: left;
+}
+
+form{
+	background-color: #504647;
+	width: 65%;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+input{
+	width: 80%;
+}
+
+textarea{
+	width: 80%;
+}
+
+/******************************* Page 6: CONNEXION *******************************/
+
+.p6{
+	width: 100%;
+	text-align: center;
+	margin: 1% auto;
+	
+	padding-bottom: 1% ;
+}
+
+.p6 form{
+	padding-bottom: 2%;
+}
+
+/******************************* Page 7: UPLOAD *******************************/
+.p7{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Arial, Geneva, Kalimati, sans-serif;
+	color: #000;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.p7b{
+	width: 90%;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+tr, td, th{
+	
+	border: 1px solid black;
+	vertical-align: middle;
+	background-color: lightgrey;
+}
+
+tr, td{
+	padding: 0.5% 1%;
+	font-size: 1vw;
+}
+
+button{
+	margin: 1% auto; 
+}
+
+#pic{
+	width: 15%;
+}
+
+#boutoncatalogue, #boutonaliments{
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.blue{
+	color: #65c7e4;
+}
+
+/******************************* Page 8: AJOUT D'UNE PAIRE *******************************/
+.entree{
+	width: 100%;
+	height: auto;
+	display: table;
+}
+
+.formleft{
+	width: 30%;
+	height: auto;
+	float: left;
+	text-align: right;
+}
+
+.formright{
+	width: 70%;
+	height: auto;
+	float: left;
+}
+
+select, input, textarea{
+	width: 90%;
+	margin: 1% auto;
+}
+
+/****************************************** DIVERS ******************************************/
+
+@media screen and (max-width: 900px){
+	body{
+		width: 95%;
+	}
+
+	header{
+		display: none;
+
+	}
+
+	.maintitle{
+	max-width: 75%;
+	height: 40px;
+	}
+
+	nav{
+		display: none;
+	}
+
+	.menu2{
+		display: table;
+		background-color: #65c7e4;
+		max-width: 100%;
+		color: white;
+		margin: 0 0 0.3% 0;
+		padding: 0;
+		font-size: 3.5vw;
+		
+	}
+
+	.menu2 ul{
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		text-align: center;
+	}
+
+	.menu2 li a{
+		text-decoration: none;
+		text-transform: uppercase;
+		color: white;
+		font-family: 'Baloo', cursive;
+	}
+
+	.menu2 img{
+		max-width: 100%;
+	}
+
+	#boutonresponsive{
+		display: block;
+		margin: 0% auto 2% auto;
+		border-radius: 4px;
+		border: 1px solid white;	
+	}
+
+	.p1, .p2, .p3, .p4, .p5{
+		font-size: 12px;
+	}
+	
+	footer{
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		font-size: 8px;
+	}
+
+	.p1, .p2{
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.p1b, .p2b{
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+		padding: 0;
+		margin: 2% auto;
+		line-height: 1.3em;
+	}
+
+	.accroche{
+		width: 50%;
+		height: auto;
+		float: left;
+		padding-top: 1vw;
+	}
+
+	.bandeaccroche{
+		margin-left: 2%;
+		display: table;
+		background-color: #504647;
+		width: 95%;
+		height: 15px;
+		border-radius: 5vw;
+		vertical-align: middle;
+	}
+
+	.texteaccroche{
+		color: white;
+		font-size: 2.5vw;
+		line-height: 8vw;
+		vertical-align: middle;
+	}
+
+	.rondgris{
+		background-color: #504647;
+		width: 4vw;
+		height: 4vw;
+		border: 1vw solid #65c7e4;
+		border-radius: 4vw;
+		float: left;
+		margin: 2% 5%;
+		vertical-align: middle;
+	}
+
+	h6{
+		margin-right: 3%;
+	}
+
+	.p2  h2{
+		font-size: 13px;
+		margin-left: 3%;	
+	}
+
+
+	.p3d{
+		float: none;
+	}
+
+	#qsn1 img{
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+
+	#qsn2 img{
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+
+	.videoydy{
+		display: none;
+	}
+
+	#videoydy{
+		display: block;
+		text-align: center;
+	}
+
+}
+                    
